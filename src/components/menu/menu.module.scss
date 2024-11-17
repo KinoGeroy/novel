@@ -1,0 +1,9 @@
+@use '@/styles/variables' as *;
+
+.menuContainer {
+  width: 10vw;
+  min-height: 100vh;
+  background-color: $base-color-5;
+  display: flex;
+  flex-direction: column;
+}

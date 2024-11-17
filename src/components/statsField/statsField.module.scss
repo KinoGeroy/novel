@@ -1,0 +1,7 @@
+@use '@/styles/variables' as *;
+
+.statsField {
+  min-width: 10vw;
+  min-height: 100vh;
+  background-color: $base-color-5;
+}

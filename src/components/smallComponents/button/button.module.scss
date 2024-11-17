@@ -1,0 +1,15 @@
+@use '@/styles/variables' as *;
+.button {
+  background: none;
+  border: none;
+  padding: 5px;
+  margin: 0 auto 0 0;
+  :hover {
+    fill: $button-color-svg;
+    color: $base-color-4;
+  }
+}
+
+.button-White {
+  color: $button-color-svg;
+}

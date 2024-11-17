@@ -1,0 +1,15 @@
+@use '@/styles/variables' as *;
+
+body {
+  background-color: $base-color-4;
+  padding: 0;
+  margin: 0;
+}
+
+.app {
+  font-size: 14px;
+  color: $base-font-color;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
